@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=390,1700 --screenshot=/tmp/papyrus-mobile.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=390,1400 --screenshot=/tmp/papyrus-mobile3.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=1440,1500 --screenshot=/tmp/papyrus-desk3.png --hide-scrollbars http://localhost:3001/)",
+      "Bash(sed -i '' \"s|{method:'Page.enable',params:{}},|{method:'Page.enable',params:{}},{method:'Emulation.setDeviceMetricsOverride',params:{width:390,height:1400,deviceScaleFactor:1,mobile:true}},|\" measure.js)",
+      "Bash(node measure.js)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --force-device-scale-factor=1 --window-size=390,1450 --screenshot=/tmp/m-new.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless=new --force-device-scale-factor=1 --window-size=1440,1550 --screenshot=/tmp/d-new.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=500,1500 --screenshot=/tmp/m500.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=768,1400 --screenshot=/tmp/m768.png --hide-scrollbars http://localhost:3001/)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --window-size=1440,2200 --screenshot=/tmp/full.png --hide-scrollbars http://localhost:3001/)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/t0.jpg 1440 900 0 2500)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/t1.jpg 1440 900 700 2500)",
+      "Bash(sed -i '' \"s|const PORT=9700;|const PORT=9000+Math.floor\\(Math.random\\(\\)*900\\);|\" geo.js)",
+      "Bash(sed -i '' \"s|await new Promise\\(r=>setTimeout\\(r,1300\\)\\);const t=JSON.parse\\(await get\\('/json'\\)\\)|await new Promise\\(r=>setTimeout\\(r,1300\\)\\);let tg;for\\(let i=0;i<25;i++\\){try{tg=JSON.parse\\(await get\\('/json'\\)\\);break;}catch\\(e\\){await new Promise\\(r=>setTimeout\\(r,300\\)\\);}}const t=tg|\" geo.js)",
+      "Bash(node geo.js)",
+      "Bash(node geo3.js)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/f_0.jpg 1440 1180 0 2600)",
+      "Bash(/bin/ls -1 public/images/)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/i_0.jpg 1440 1000 0 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/i_1300.jpg 1440 1000 1300 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/j_0.jpg 1440 1300 0 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/j_450.jpg 1440 1000 450 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/mob0.jpg 390 1500 0 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/mob1.jpg 390 1500 750 2600)",
+      "Bash(node shot.js \"http://localhost:3001/\" /tmp/mob0b.jpg 390 1500 0 2600)",
+      "Bash(python3 -c ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}

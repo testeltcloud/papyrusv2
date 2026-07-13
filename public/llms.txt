@@ -1,0 +1,36 @@
+# Papyrus Ads
+
+> O Papyrus Ads é um aplicativo brasileiro (iOS e Android) que reúne os resultados de Google Ads, Meta Ads (Facebook e Instagram) e TikTok Ads em um único painel simples, feito para donos de negócio e anunciantes sem conhecimento técnico. Teste gratuito de 15 dias, sem cartão de crédito.
+
+## O que o Papyrus Ads faz
+
+- Conecta as contas de anúncio pelas integrações oficiais do Google, da Meta e do TikTok, com autorização concedida apenas pelo usuário.
+- Mostra em um único painel os indicadores que importam: investimento, ROAS, CPC, CPM, cliques e conversões.
+- Explica cada métrica em linguagem simples, com exemplos — inclui glossário de termos de tráfego pago.
+- Dados criptografados, nunca compartilhados com terceiros.
+
+## Para quem é
+
+Donos de pequenos e médios negócios, empreendedores e anunciantes que investem em tráfego pago (Google, Facebook, Instagram, TikTok) e querem entender seus resultados sem depender de relatórios técnicos ou planilhas.
+
+## Preço
+
+Download gratuito. Teste completo por 15 dias sem cartão de crédito; depois, assinatura por plano. Sem cobrança automática ao fim do teste.
+
+## Perguntas frequentes
+
+- **Preciso ter conhecimento técnico?** Não. O app foi criado para quem quer entender os resultados sem complicações técnicas.
+- **Os dados estão seguros?** Sim. Integrações oficiais, dados criptografados e nunca compartilhados com terceiros.
+- **Quais plataformas são suportadas?** Google Ads, Meta Ads (Facebook e Instagram) e TikTok Ads.
+- **O que acontece após o teste gratuito?** O usuário escolhe um plano para continuar; se não assinar, nada é cobrado.
+
+## Links
+
+- [Site oficial](https://papyrusads.com): página principal com funcionalidades, diferenciais e FAQ
+- [App Store](https://apps.apple.com/br/app/papyrus-ads/id6754659021): download para iOS
+- [Google Play](https://play.google.com/store/apps/details?id=com.papyrusads.app&hl=pt_BR): download para Android
+- [Instagram](https://www.instagram.com/papyrusadsofc/): perfil oficial
+- [Facebook](https://www.facebook.com/profile.php?id=61590830956047): página oficial
+- Contato: papyrusadsofc@gmail.com · WhatsApp +55 18 99627-2081
+- [Termos de uso](https://portal.papyrusads.com/policy)
+- [Política de privacidade](https://portal.papyrusads.com/privacy)
