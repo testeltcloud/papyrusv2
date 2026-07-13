@@ -88,7 +88,7 @@ export function MobileNav() {
           Baixe o app
         </p>
         <div className="flex gap-3">
-          <a href={links.appStore} aria-label="Baixar na App Store" className="block flex-1 min-w-0">
+          <a href={links.appStore} aria-label="Baixar na App Store MobileNav 1" className="block flex-1 min-w-0" target="_blank" rel="noopener noreferrer nofollow">
             <Image
               src="/images/adc/ButtonAzul.png"
               alt="Download para iOS"
@@ -97,7 +97,7 @@ export function MobileNav() {
               className="w-full h-12 object-fill"
             />
           </a>
-          <a href={links.playStore} aria-label="Baixar no Google Play" className="block flex-1 min-w-0">
+          <a href={links.playStore} aria-label="Baixar no Google Play MobileNav 1" className="block flex-1 min-w-0" target="_blank" rel="noopener noreferrer nofollow">
             <Image
               src="/images/adc/ButtonVerde.png"
               alt="Download para Android"

@@ -64,7 +64,7 @@ export function Footer() {
                 <ul className="mt-4 space-y-5 sm:space-y-5 text-[0.75rem] min-[400px]:text-[0.85rem] sm:text-[0.95rem]">
                   {usefulLinks.map((item) => (
                     <li key={item.href}>
-                      <a href={item.href} className="text-muted transition-colors hover:text-brand whitespace-nowrap">
+                      <a href={item.href} className="text-muted transition-colors hover:text-brand whitespace-nowrap" target="_blank" rel="noopener noreferrer nofollow">
                         {item.label}
                       </a>
                     </li>
@@ -73,7 +73,7 @@ export function Footer() {
                 <ul className="mt-6 sm:mt-8 space-y-3 sm:space-y-3.5 text-[0.75rem] min-[400px]:text-[0.85rem] sm:text-[0.95rem]">
                   {legalLinks.map((item) => (
                     <li key={item.label}>
-                      <a href={item.href} className="text-muted transition-colors hover:text-brand">
+                      <a href={item.href} className="text-muted transition-colors hover:text-brand" target="_blank" rel="noopener noreferrer nofollow">
                         {item.label}
                       </a>
                     </li>
@@ -87,10 +87,10 @@ export function Footer() {
                   Baixe agora mesmo
                 </h2>
                 <div className="mt-4 flex flex-col sm:flex-row items-stretch gap-2 sm:h-12">
-                  <a href={links.appStore} aria-label="Baixar na App Store" className="flex-none">
+                  <a href={links.appStore} aria-label="Baixar na App Store Footer 1" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
                     <Image src="/images/adc/ButtonAzul.png" alt="Download para iOS" width={620} height={176} className="h-12 sm:h-full w-auto" />
                   </a>
-                  <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-none">
+                  <a href={links.playStore} aria-label="Baixar no Google Play Footer 1" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
                     <Image src="/images/adc/ButtonVerde.png" alt="Download para Android" width={720} height={176} className="h-12 sm:h-full w-auto" />
                   </a>
                 </div>
@@ -104,9 +104,9 @@ export function Footer() {
                 <a
                   href={links.whatsapp}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  
                   className="btn mt-3 h-11 sm:h-12 w-full rounded-xl border border-brand bg-white px-2 min-[400px]:px-3 sm:px-5 font-extrabold tracking-wide text-[0.65rem] min-[400px]:text-[0.8rem] sm:text-[0.95rem] text-ink shadow-sm hover:bg-surface-2 dark:bg-surface-2 dark:hover:bg-surface"
-                >
+                 rel="noopener noreferrer nofollow">
                   <Image src="/images/adc/Vector.png" alt="WhatsApp" width={20} height={20} className="h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
                   Entrar em contato
                 </a>
@@ -122,9 +122,9 @@ export function Footer() {
           <a
             href="https://ltcloud.com.br/"
             target="_blank"
-            rel="noopener"
+            
             className="font-medium text-ink hover:underline"
-          >
+           rel="noopener noreferrer nofollow">
             Lt Cloud
           </a>{" "}
           <span aria-hidden>🩵</span>

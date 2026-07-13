@@ -26,10 +26,10 @@ export function FAQ() {
                 A gente responde com transparência.
               </p>
               <div className="mt-7 flex flex-row md:flex-col items-stretch gap-3">
-                <a href={links.appStore} aria-label="Baixar na App Store" className="flex-1 md:flex-none">
+                <a href={links.appStore} aria-label="Baixar na App Store FAQ 1" className="flex-1 md:flex-none" target="_blank" rel="noopener noreferrer nofollow">
                   <Image src="/images/adc/ButtonAzul.png" alt="Download para iOS" width={620} height={176} className="w-full md:w-[210px] h-auto" />
                 </a>
-                <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-1 md:flex-none">
+                <a href={links.playStore} aria-label="Baixar no Google Play FAQ 1" className="flex-1 md:flex-none" target="_blank" rel="noopener noreferrer nofollow">
                   <Image src="/images/adc/ButtonVerde.png" alt="Download para Android" width={720} height={176} className="w-full md:w-[210px] h-auto" />
                 </a>
               </div>

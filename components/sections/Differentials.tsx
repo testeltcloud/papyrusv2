@@ -86,10 +86,10 @@ export function Differentials() {
           </p>
           {/* Desktop: botões imagem abaixo do subtítulo */}
           <div className="hidden sm:flex justify-center items-stretch gap-3 h-[52px] mt-7">
-            <a href={links.appStore} aria-label="Baixar na App Store" className="flex-none">
+            <a href={links.appStore} aria-label="Baixar na App Store Differentials 1" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
               <Image src="/images/adc/ButtonAzul.png" alt="Download para iOS" width={620} height={176} className="h-full w-auto object-fill" />
             </a>
-            <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-none">
+            <a href={links.playStore} aria-label="Baixar no Google Play Differentials 1" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
               <Image src="/images/adc/ButtonVerde.png" alt="Download para Android" width={720} height={176} className="h-full w-auto object-fill" />
             </a>
           </div>
@@ -135,10 +135,10 @@ export function Differentials() {
         </div>
         {/* Mobile: botões imagem abaixo dos cards */}
         <div className="sm:hidden mt-7 flex items-stretch gap-3">
-                        <a href={links.appStore} aria-label="Baixar na App Store" className="flex-1">
+                        <a href={links.appStore} aria-label="Baixar na App Store Differentials 2" className="flex-1" target="_blank" rel="noopener noreferrer nofollow">
                           <Image src="/images/adc/ButtonAzul.png" alt="Download para iOS" width={620} height={176} className="w-full h-full object-fill" />
                         </a>
-                        <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-1">
+                        <a href={links.playStore} aria-label="Baixar no Google Play Differentials 2" className="flex-1" target="_blank" rel="noopener noreferrer nofollow">
                           <Image src="/images/adc/ButtonVerde.png" alt="Download para Android" width={720} height={176} className="w-full h-full object-fill" />
                         </a>
                       </div>

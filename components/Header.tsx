@@ -15,17 +15,17 @@ export function Header() {
               key={item.href}
               href={item.href}
               className="text-[0.95rem] font-medium text-body transition-colors hover:text-ink"
-            >
+             target="_blank" rel="noopener noreferrer nofollow">
               {item.label}
             </a>
           ))}
         </nav>
 
         <div className="hidden items-center gap-2 lg:flex">
-          <a href={links.appStore} aria-label="Baixar na App Store">
+          <a href={links.appStore} aria-label="Baixar na App Store Header 1" target="_blank" rel="noopener noreferrer nofollow">
             <Image src="/images/adc/ButtonAzullAple.png" alt="Download para iOS" width={620} height={176} className="h-12 w-auto object-fill" />
           </a>
-          <a href={links.playStore} aria-label="Baixar no Google Play">
+          <a href={links.playStore} aria-label="Baixar no Google Play Header 1" target="_blank" rel="noopener noreferrer nofollow">
             <Image src="/images/adc/ButtonAzulAndroid.png" alt="Download para Android" width={720} height={176} className="h-12 w-auto object-fill" />
           </a>
         </div>

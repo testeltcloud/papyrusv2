@@ -13,9 +13,9 @@ export function WhatsAppButton({ children, size = "md", className = "" }: Props)
     <a
       href={links.whatsapp}
       target="_blank"
-      rel="noopener noreferrer"
+      
       className={`btn ${sizeClass} bg-green text-white shadow-soft hover:bg-green-dark ${className}`}
-    >
+     rel="noopener noreferrer nofollow">
       <WhatsAppIcon className="h-5 w-5" />
       {children}
     </a>

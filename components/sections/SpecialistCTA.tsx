@@ -89,7 +89,7 @@ export function SpecialistCTA() {
                 no WhatsApp.
               </p>
 
-              <a href={links.whatsapp} target="_blank" rel="noopener noreferrer" className="mt-6 sm:mt-7 block w-full sm:w-auto">
+              <a href={links.whatsapp} target="_blank"  className="mt-6 sm:mt-7 block w-full sm:w-auto" rel="noopener noreferrer nofollow">
                 <Image
                   src="/images/adc/whatsappespecilista.png"
                   alt="Falar com um especialista no WhatsApp"

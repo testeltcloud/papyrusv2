@@ -39,7 +39,7 @@ export function Hero() {
           </p>
 
           <div className="hero-enter hero-enter-delay-4 mt-10 flex items-stretch gap-3 w-full sm:w-auto">
-            <a href={links.appStore} aria-label="Baixar na App Store" className="flex-1 sm:flex-none">
+            <a href={links.appStore} aria-label="Baixar na App Store Hero 1" className="flex-1 sm:flex-none" target="_blank" rel="noopener noreferrer nofollow">
               <Image
                 src="/images/adc/ButtonAzul.png"
                 alt="Download para iOS"
@@ -48,7 +48,7 @@ export function Hero() {
                 className="w-full h-full sm:h-14 sm:w-auto object-fill"
               />
             </a>
-            <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-1 sm:flex-none">
+            <a href={links.playStore} aria-label="Baixar no Google Play Hero 1" className="flex-1 sm:flex-none" target="_blank" rel="noopener noreferrer nofollow">
               <Image
                 src="/images/adc/ButtonVerde.png"
                 alt="Download para Android"

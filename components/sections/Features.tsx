@@ -152,7 +152,7 @@ export function Features() {
                 height={600}
                 className="w-full h-auto"
               />
-              <a href={links.appStore} aria-label="Baixar na App Store" className="block">
+              <a href={links.appStore} aria-label="Baixar na App Store Features 1" className="block" target="_blank" rel="noopener noreferrer nofollow">
                 <Image
                   src="/images/adc/ButtonAzul.png"
                   alt="Download para iOS"
@@ -161,7 +161,7 @@ export function Features() {
                   className="w-full h-auto"
                 />
               </a>
-              <a href={links.playStore} aria-label="Baixar no Google Play" className="block">
+              <a href={links.playStore} aria-label="Baixar no Google Play Features 1" className="block" target="_blank" rel="noopener noreferrer nofollow">
                 <Image
                   src="/images/adc/ButtonVerde.png"
                   alt="Download para Android"
@@ -225,10 +225,10 @@ export function Features() {
               </div>
             </article>
             <div className="flex justify-center items-stretch gap-3 h-[52px]">
-              <a href={links.appStore} aria-label="Baixar na App Store" className="flex-none">
+              <a href={links.appStore} aria-label="Baixar na App Store Features 2" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
                 <Image src="/images/adc/ButtonAzul.png" alt="Download para iOS" width={620} height={176} className="h-full w-auto" />
               </a>
-              <a href={links.playStore} aria-label="Baixar no Google Play" className="flex-none">
+              <a href={links.playStore} aria-label="Baixar no Google Play Features 2" className="flex-none" target="_blank" rel="noopener noreferrer nofollow">
                 <Image src="/images/adc/ButtonVerde.png" alt="Download para Android" width={720} height={176} className="h-full w-auto" />
               </a>
             </div>

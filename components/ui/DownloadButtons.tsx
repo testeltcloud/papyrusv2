@@ -51,7 +51,7 @@ export function DownloadButtons({
         className={`inline-flex justify-center items-center gap-2 ${radius} font-extrabold tracking-wide
           transition-all duration-200 active:scale-[0.97]
           ${iosCls} ${pad} ${height} ${textSz} ${itemFlex}`}
-      >
+       target="_blank" rel="noopener noreferrer nofollow">
         <AppleIcon className={`${iconSz} scale-125 shrink-0`} />
         <span className="whitespace-nowrap">Download para iOS</span>
       </a>
@@ -62,7 +62,7 @@ export function DownloadButtons({
         className={`inline-flex justify-center items-center gap-2 ${radius} font-extrabold tracking-wide
           transition-all duration-200 active:scale-[0.97]
           ${droidCls} ${pad} ${height} ${textSz} ${itemFlex}`}
-      >
+       target="_blank" rel="noopener noreferrer nofollow">
         <PlayStoreIcon className={`${iconSz} shrink-0`} />
         <span className="whitespace-nowrap">Download para Android</span>
       </a>

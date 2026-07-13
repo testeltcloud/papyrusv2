@@ -31,7 +31,7 @@ export function AboutCTA() {
             className="w-full h-auto"
           />
           <div className="absolute bottom-[8%] left-[5%] flex flex-col gap-2 w-[52%]">
-            <a href={links.appStore} aria-label="Baixar na App Store" className="block w-[88%]">
+            <a href={links.appStore} aria-label="Baixar na App Store AboutCTA 1" className="block w-[88%]" target="_blank" rel="noopener noreferrer nofollow">
               <Image
                 src="/images/adc/ButtonCima.png"
                 alt="Download para iOS"
@@ -40,7 +40,7 @@ export function AboutCTA() {
                 className="w-full h-auto"
               />
             </a>
-            <a href={links.playStore} aria-label="Baixar no Google Play">
+            <a href={links.playStore} aria-label="Baixar no Google Play AboutCTA 1" target="_blank" rel="noopener noreferrer nofollow">
               <Image
                 src="/images/adc/ButtonBaixo.png"
                 alt="Download para Android"
