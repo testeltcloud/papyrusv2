@@ -11,8 +11,8 @@ const usefulLinks = [
 //teste"
 
 const legalLinks = [
-  { label: "Termos de uso", href: "https://portal.papyrusads.com/policy" },
-  { label: "Política de privacidade", href: "https://portal.papyrusads.com/privacy" },
+  { label: "Termos de uso", href: "/termos-de-uso" },
+  { label: "Política de privacidade", href: "/politica-de-privacidade" },
 ];
 
 const socials = [

@@ -11,9 +11,13 @@ export const links = {
   email: "papyrusadsofc@gmail.com",
 } as const;
 
+/*
+  Âncoras com "/" na frente ("/#faq") funcionam tanto na home quanto nas
+  páginas internas (/termos-de-uso, /politica-de-privacidade).
+*/
 export const nav = [
-  { label: "Home", href: "#home" },
-  { label: "Funcionalidades", href: "#funcionalidades" },
-  { label: "Diferenciais", href: "#diferencas" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Home", href: "/#home" },
+  { label: "Funcionalidades", href: "/#funcionalidades" },
+  { label: "Diferenciais", href: "/#diferencas" },
+  { label: "FAQ", href: "/#faq" },
 ] as const;
