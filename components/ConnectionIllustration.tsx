@@ -167,7 +167,7 @@ export function ConnectionIllustration() {
         <div ref={centerRef} className="h-12 w-12">
           <Image
             src={logoMark.src}
-            alt=""
+            alt="Papyrus Ads"
             width={48}
             height={48}
             className="h-full w-full object-contain"

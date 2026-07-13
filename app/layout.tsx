@@ -20,7 +20,7 @@ const sans = Inter({
 
 const TITLE = "Papyrus Ads — Você no controle dos seus anúncios";
 const DESCRIPTION =
-  "Papyrus Ads é o app que reúne Google Ads, Meta Ads e TikTok Ads em um único painel simples. Entenda ROAS, CPC e conversões sem conhecimento técnico. Teste grátis por 15 dias, sem cartão.";
+  "Papyrus Ads reúne Google, Meta e TikTok Ads num painel simples. Entenda ROAS, CPC e conversões sem termos técnicos. Teste grátis 15 dias, sem cartão.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

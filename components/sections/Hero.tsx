@@ -23,7 +23,7 @@ export function Hero() {
               <span className="inline-block rounded-[0.4em] bg-mint px-3 py-1 text-ink leading-tight shadow-sm">
                 controle
               </span>
-            </span>
+            </span>{" "}
             <span className="block whitespace-nowrap">
               dos seus anúncios.
             </span>

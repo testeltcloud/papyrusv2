@@ -30,7 +30,8 @@ export function WhatIs() {
             {org.description} Você conecta suas contas em poucos minutos,
             pelas integrações oficiais de cada plataforma, e passa a
             acompanhar investimento, ROAS, CPC, cliques e conversões em um
-            só lugar — com cada métrica explicada em linguagem simples.
+            só lugar — com cada métrica explicada em linguagem simples,
+            colocando você no controle dos seus anúncios.
           </p>
 
           <p className="mt-4 text-base sm:text-lg leading-relaxed text-body">
