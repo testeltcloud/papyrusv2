@@ -8,7 +8,7 @@ export const links = {
   whatsapp: "https://wa.me/5518996272081",
   instagram: "https://www.instagram.com/papyrusadsofc/",
   facebook: "https://www.facebook.com/profile.php?id=61590830956047&locale=pt_BR",
-  email: "papyrusadsofc@gmail.com",
+  email: "tipapyrus@gmail.com",
 } as const;
 
 /*

@@ -21,7 +21,7 @@ export const org = {
   logo: `${SITE_URL}/images/logo.png`,
   description:
     "O Papyrus Ads é um aplicativo brasileiro que reúne os resultados de Google Ads, Meta Ads (Facebook e Instagram) e TikTok Ads em um único painel simples, feito para anunciantes sem conhecimento técnico.",
-  email: "papyrusadsofc@gmail.com",
+  email: "tipapyrus@gmail.com",
   sameAs: [
     links.appStore,
     links.playStore,

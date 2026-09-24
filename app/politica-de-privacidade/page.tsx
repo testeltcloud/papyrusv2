@@ -151,10 +151,10 @@ const sections: LegalSection[] = [
         <p>
           As solicitações podem ser feitas pelo e-mail{" "}
           <a
-            href="mailto:papyrusadsofc@gmail.com"
+            href="mailto:tipapyrus@gmail.com"
             className="text-brand underline underline-offset-2 hover:no-underline"
           >
-            papyrusadsofc@gmail.com
+            tipapyrus@gmail.com
           </a>
           .
         </p>
